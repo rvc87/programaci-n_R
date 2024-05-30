@@ -16,3 +16,46 @@ knitr::opts_chunk$set(echo = TRUE)
 ## 1.- Elementos de entorno de Algoritmos y Programación.
 
 ### 1.1.- Información y procesamiento de la información.
+
+  Antes de definir que es la Información y que es el procesamiento de la información, veamos unos conceptos:
+
+* Una computadora es un procesador de datos y sistemas de procesamiento de información.
+* Un sistema es un conjunto de componentes conectados interactivos que tienen un propósito y una unidad total.
+* Un sistema de procesamiento de la información, es un sistema que transforma los datos brutos en información organizada   significativa y útil.
+
+  Para procesar la información son necesarias dos cosas:
+  
+* Hardware.- Es la parte fisica, lo tangible, lo que se puede tocar:
+
+  - Unidad central de procesos (CPU): Conjunto de circuitos electrónicos capaces de ejecutar cálculos como operaciones       lógicas y matemáticas.
+  - Memoria central: La información procesadas por el CPU se almacena normalmente en la memoria central hasta que se         terminan los cálculos.
+  - Dispositivos de almacenamiento secundarios (Memoria auxiliar).
+  - Periféricos o dispositivos de entrada/salida (E/S).
+  
+* Software.- Es la parte lógica, intangible, lo que no se puede tocar:
+
+  - Es el conjunto de programas que controlan el funcionamiento del hardware de una computadora.
+
+Definidos hardware y software damos paso a la definicion de Dato:
+
+* El dato es una representación simbólica (númerica,    alfabética, algorítmica, ect), un atributo o característica de una entidad. Los datos describen hechos empíricos, sucesos y entidades reales. Un dato puede ser un simple carácter, tal como 'a', un numero, o un dibujo, etc.
+
+* Un dato e sla expresión general que describe los objetos con los cuales opera una computadora. Existem dos tipos de datos:
+
+  - Simples (sin estrcutura):
+    
+    - Numéricos (enteros, reales).
+    - Lógicos (boolean).
+    - Carácter (char, string).
+   
+  - Compuestos (estructurados):
+    
+    - Registros.
+    - Arreglos (vectores, matrices).
+    - Archivos.
+    
+* Informacíon.- La información es un conjunto de datos acerca de algún suceso, hecho, fenómeno o situación, que organizados es un contexto determinado tienen su significado, cuyo propósito puede ser el de reducir la incertidumbre o incrementar el conocimiento acerca de algo.
+
+* Procesamiento de la información.- La información se puede introducir en la computadora como entrada (input) y a continuación se procesan para producir una salida (output).
+
+[Entrada (datos)] -> [Proceso] -> [Salida (resultado)]
