@@ -59,3 +59,38 @@ Definidos hardware y software damos paso a la definicion de Dato:
 * Procesamiento de la información.- La información se puede introducir en la computadora como entrada (input) y a continuación se procesan para producir una salida (output).
 
 [Entrada (datos)] -> [Proceso] -> [Salida (resultado)]
+
+ ### 1.2.- Algoritmo y Programa.
+
+* Agoritmo.- Es un método para resolver un problema, es una secuencia ordenada de instrucciones que siempre se ejecutan en un tiempo finito, que describen el proceso que se debe seguir, para dar solución a un problema especifico.
+  Siempre debe de haber un punto de inicio y un punto de terminación, estos deben ser únicos y deben ser fácilmente identificables.
+  
+  Características de un algortitmo:
+  
+* Tiene que ser preciso.
+* Tiene que estar bien definido.
+* Tiene que ser finito.
+* Un algoritmo debe describir: Entrada, Proceso y Salida.
+
+Por ejemplo: Convertir grados/minutos/segundos a grados en radianes.
+
+* Inicio
+* Entrada: ingresar los grados, minutos y segundos.
+* A los grados sumarle los minutos entre 60 y los segundos entre   3600.
+* Al resultado de la suma multiplicarlo por pi entre 180.
+* Salida: imprimir los grados en radianes.
+* Fin.
+
+Tipos de algoritmos:
+
+* Cualitativos.- Son aquellos en los que se describen los pasos utilizando palabras.
+
+* Cuantitativos.- Son aquellos que se utilizan cálculos númericos para definir los pasos del proceso.
+
+Lenguajes algorítmicos.- Es una serie de simbolos y reglas que se utilizan para describir de manera explicita un algoritmo, estos pueden ser:
+
+  * Graficos.- Es la representacion gráfica de las operaciones que realiza un algoritmo. Por ejemplo: diagramas de flujo,       diagramas N-S.
+   
+  * No gráficos.- Representa en forma descriptiva las operaciones que debe realizar un añgoritmo. Por ejemplo: Pseudocódigo.
+  
+* Programa.- Es el conjunto de instrucciones escritas en algún lenguaje de programación y que ejecutadas secuencialmente resuelven un problema especifico.
