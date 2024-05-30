@@ -21,14 +21,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Una computadora es un procesador de datos y sistemas de procesamiento de información.
 * Un sistema es un conjunto de componentes conectados interactivos que tienen un propósito y una unidad total.
-* Un sistema de procesamiento de la información, es un sistema que transforma los datos brutos en información organizada   significativa y útil.
+* Un sistema de procesamiento de la información, es un sistema que transforma los datos brutos en información organizada significativa y útil.
 
   Para procesar la información son necesarias dos cosas:
   
 * Hardware.- Es la parte fisica, lo tangible, lo que se puede tocar:
 
-  - Unidad central de procesos (CPU): Conjunto de circuitos electrónicos capaces de ejecutar cálculos como operaciones       lógicas y matemáticas.
-  - Memoria central: La información procesadas por el CPU se almacena normalmente en la memoria central hasta que se         terminan los cálculos.
+  - Unidad central de procesos (CPU): Conjunto de circuitos electrónicos capaces de ejecutar cálculos como operaciones lógicas y matemáticas.
+  - Memoria central: La información procesadas por el CPU se almacena normalmente en la memoria central hasta que se terminan los cálculos.
   - Dispositivos de almacenamiento secundarios (Memoria auxiliar).
   - Periféricos o dispositivos de entrada/salida (E/S).
   
@@ -38,7 +38,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Definidos hardware y software damos paso a la definicion de Dato:
 
-* El dato es una representación simbólica (númerica,    alfabética, algorítmica, ect), un atributo o característica de una entidad. Los datos describen hechos empíricos, sucesos y entidades reales. Un dato puede ser un simple carácter, tal como 'a', un numero, o un dibujo, etc.
+* El dato es una representación simbólica (númerica, alfabética, algorítmica, ect), un atributo o característica de una entidad. Los datos describen hechos empíricos, sucesos y entidades reales. Un dato puede ser un simple carácter, tal como 'a', un numero, o un dibujo, etc.
 
 * Un dato e sla expresión general que describe los objetos con los cuales opera una computadora. Existem dos tipos de datos:
 
@@ -89,7 +89,7 @@ Tipos de algoritmos:
 
 Lenguajes algorítmicos.- Es una serie de simbolos y reglas que se utilizan para describir de manera explicita un algoritmo, estos pueden ser:
 
-  * Graficos.- Es la representacion gráfica de las operaciones que realiza un algoritmo. Por ejemplo: diagramas de flujo,       diagramas N-S.
+  * Graficos.- Es la representacion gráfica de las operaciones que realiza un algoritmo. Por ejemplo: diagramas de flujo, diagramas N-S.
    
   * No gráficos.- Representa en forma descriptiva las operaciones que debe realizar un añgoritmo. Por ejemplo: Pseudocódigo.
   
