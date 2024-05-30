@@ -1,0 +1,252 @@
+---
+title: "programacion_R"
+author: "Roberto Vargas Castro"
+date: "2024-05-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Fundamentos de programación - Aprende a programar desde cero (ATS).
+
+  El presente archivo es una mezcla de los cursos "Fundamentos de programacion - Aprende a programar desde cero" de Alejandro Sanchez Taboada impartido en Udemy y el curso de "Analisis de datos con programcion en R" de Google impartido en Coursera. Se hace una union de los conceptos principales de la programacion de ambos cursos y se resuelven especificamente los ejercicios impartidos por Alejandro Sanchez Taboada.
+
+## 1.- Elementos de entorno de Algoritmos y Programación.
+
+### 1.1.- Información y procesamiento de la información.
+
+### 1.2.- Algoritmo y Programa.
+
+### 1.3.- Lenguaje de programación (parte 1).
+
+### 1.4.- Lenguaje de programación (parte 2).
+
+### 1.5.- Metodologias para la solución de probelmas.
+
+## 2.- Entidades primitivas.
+
+### 2.1.- Descargar e instalar PSeInt.
+
+### 2.2.- Identificadores (Constantes y Variables).
+
+### 2.3.- Tipos de Datos.
+
+### 2.4.- Operación de asignación.
+
+### 2.5.- Entrada y salida de información.
+
+### 2.6.- Operadores y operandos - Operadores aritméticos.
+
+### 2.7.- Operadores y operandos - Operadores relacionales.
+
+### 2.8.- Operadores lógicos.
+
+### 2.9.- Funciones internas.
+
+### 2.10.- Ejercicio 1.- Operación Artitmética.
+
+### 2.11.- Ejercicio 2.- Operación con los tres tipos de operadores.
+
+### 2.12.- Ejercicio 3.- Intercambiar el valor de dos variables.
+
+## 3.- Representación de Algoritmos.
+
+### 3.1.- Diagrama de flujo.
+
+### 3.2.- Diagrama estructurado N-S.
+
+### 3.3.- Pseudocódigo.
+
+## 4.- Estructuras secuenciales.
+
+### 4.1.- Concepto de estructuras secuenciales y ejercicio 1.
+
+### 4.2.- Ejercicio 2 - Área y longitud de un círculo.
+
+### 4.3.- Ejercicio 3 - Porcentaje de hombres y de mujeres.
+
+### 4.4.- Ejercicio 4 - Calcular el tiempo en revisar exámenes.
+
+### 4.5.- Ejercicio 5 - Descuento del 15% en una tienda.
+
+### 4.6.- Ejercicio 6 - Notas de un alumno.
+
+## 5.- Estrcuturas condicionales.
+
+### 5.1.- Concepto de condicionales.
+
+### 5.2.- Ejercicio 1 - Número par o impar.
+
+### 5.3.- Ejercicio 2 - Alumno aprobado o reprobado.
+
+### 5.4.- Ejercicio 3 - Descuento si la compra supera a 100.
+
+### 5.5.- Ejercicio 4 - Operaciones con dos números.
+
+### 5.6.- Ejercicio 5 - Determinar en mayor de tres números.
+
+### 5.7.- Ejercicio 6 - Descuento según kilos de manzanas.
+
+### 5.8.- Ejercicio 7 - Día de la semana según un número.
+
+### 5.9.- Ejercicio 8 - Significado de aniversario según la década.
+
+### 5.10.- Ejercicio 9 - Menú de opciones.
+
+## 6.- Estructuras repetitivas.
+
+### 6.1.- Ciclos con un número determinado de iteraciones.
+
+### 6.2.- Ciclos con un número indeterminado de operaciones.
+
+### 6.3.- Ejercicio 1 - Suma de los N primeros números.
+
+### 6.4.- Ejercicio 2 - Suma de pares e impares comprendidos entre 1 y 50.
+
+### 6.5.- Ejercicio 3 - Conteo de positivos, negativos neutros.
+
+### 6.6.- Ejercicio 4 - Calificación promedio y más baja.
+
+### 6.7.- Ejercicio 5 - Factorial de un número.
+
+### 6.8.- Ejercicio 6 - Suma iterativa de cuadradoss.
+
+### 6.9.- Ejercicio 7 - Sumas iterativas y conteos.
+
+### 6.10.- Ejercicio 8 - Calacular salarios y sumatorias.
+
+### 6.11.- Ejercicio 9 - Sumatoria con cambio de signo.
+
+### 6.12.- Ejercicio 10 - Calcular el mayor y el menor numero.
+
+### 6.13.- Ejercicio 11 - Serie de Fibonacci.
+
+### 6.14.- Ejercicio 12 - Sumatoria con potencia y factorial.
+
+## 7.- Arreglos.
+
+### 7.1.- Concepto de arreglo.
+
+### 7.2.- Arreglos unidimensionales.
+
+### 7.3.- Ejercicio 1 - Suma y promedio de un arreglo.
+
+### 7.4.- Ejercicio 2 - Llenar un arreglo con números aleatorios.
+
+### 7.5.- Ejercicio 3 - Imprimir en orden inverso un arreglo.
+
+### 7.6.- Ejercicio 4 - Hallar el número mayor y menor de un arreglo.
+
+### 7.7.- Ejercicio 5 - Mostrar un arreglo mediante los extremos.
+
+### 7.8.- Ejercicio 6 - Determinar el orden de un arreglo.
+
+### 7.9.- Ejercicio 7 - Desplazar una posición en un arreglo.
+
+### 7.10.- Ejercicio 8 - Insertar un número en un arreglo ordenado.
+
+### 7.11.- Ejercicio 9 - Eliminar un elemento de un arreglo.
+
+### 7.12.- Ejercicio 10 - Fusionar 2 arreglos ordenados.
+
+## 8.- Ordenamientos.
+
+### 8.1.- Método burbuja (explicación).
+
+### 8.2.- Método burbuja (pseudocódigo).
+
+### 8.3.- Ordenamiento por inserción (explicación).
+
+### 8.4.- Ordenamiento por inserción (pseudocódigo).
+
+### 8.5.- Ordenamiento por selección (explicación).
+
+### 8.6.- Ordenamiento por selección (pseudocódigo).
+
+## 9.- Búsquedas.
+
+### 9.1.- Búsqueda secuencial (explicación).
+
+### 9.2.- Búsqueda secuencial (pseudocódigo).
+
+### 9.3.- Búsqueda binaria (explicación).
+
+### 9.4.- Búsqueda binaria (pseudocódigo).
+
+## 10.- Cadenas de caracteres.
+
+### 10.1.- Concepto de cadenas.
+
+### 10.2.- Operaciones con cadenas.
+
+### 10.3.- Ejercicio 1 - Conteo de de vocales en una cadena.
+
+### 10.4.- Ejercicio 2 - Comparando longitudes de cadenas.
+
+### 10.5.- Ejercicio 3 - Repetir una cadena N veces.
+
+### 10.6.- Ejercicio 4 - Eliminar espacios en blanco de una cadena.
+
+### 10.7.- Ejercicio 5 - Cambiar una cadena al revés.
+
+### 10.8.- Ejercicio 6 - Determinar si una cadena es un palíndromo.
+
+### 10.9.- Ejercicio 7 - Convertir las primeras letras a mayúsculas.
+
+### 10.10.- Ejercicio 8 - Reemplazar espacios por asteriscos.
+
+### 10.11.- Ejercicio 9 - Contar vocales (cada una) en una cadena.
+
+### 10.12.- Ejercicio 10 - Contabilizar cuantas veces se repite una palabra.
+
+## 11.- Matrices.
+
+### 11.1.- Concepto de matrices.
+
+### 11.2.- LLenar y mostrar una matriz.
+
+### 11.3.- Ejercicio 1 - Suma de elementos pares de una matriz.
+
+### 11.4.- Ejercicio 2 - Posición del número mayor de una matriz.
+
+### 11.5.- Ejercicio 3 - Sumar las filas y las columnas de una matriz.
+
+### 11.6.- Ejercicio 4 - Calacular la suma mayor de columnas.
+
+### 11.7.- Ejercicio 5 - Diagonal principal de una matriz.
+
+### 11.8.- Ejercicio 6 - Matriz identidad.
+
+## 12.- Modularidad (Funciones y porcedimientos).
+
+### 12.1.- Introducción a los subprogramas.
+
+### 12.2.- Funciones.
+
+### 12.3.- Procedimientos.
+
+### 12.4.- Parametros por valor o por referencia.
+
+### 12.5.- Ejercicio 1 - Mostrar una cadena entre asteriscos.
+
+### 12.6.- Ejercicio 2 - Menú de opciones aritméticas.
+
+### 12.7.- Ejercicio 3 - Cambio de divisas.
+
+### 12.8.- Ejercicio 4 - Cantidad de billetes de cambio.
+
+### 12.9.- Ejercicio 5 - Ordenando alfabéticamente cinco apellidos.
+
+### 12.10.- Ejercicio 6 - Pasar una matriz como parámetro.
+
+### 12.11.- Recursividad.
+
+### 12.12.- Ejercicio 7 - Potencia con recursiviadad.
+
+### 12.13.- Ejercicio 8 - Fibonacci con recursividad.
+
+### 12.14.- Ejercicio 9 - Sumar los dígitos de un número con recursividad.
+
+## 13.- 
