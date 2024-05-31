@@ -169,3 +169,62 @@ Desventaja: el proceso de traducción es muy largo y ocupa más recursos.
   - Orientado a objetos.
   
   Cada vez más utilizado, sobre todo en combinación con el imperativo. De hecho los lenguajes orientados a objetos permiten la programación imperativa. Algunos ejemplos de lenguajes orientados son C++, Java, Python, etc. Usa objetos y sus interacciones para diseñar aplicaciones y programas de computadora. Esta basado en varias técnicas, incluyendo herencia, modularidad, polimorfismo y encapsulamiento.
+
+### 1.5.- Metodologias para la solución de probelmas.
+
+  Desde el punto de vista educativo, la solución de problemas mediante la proramación posibilita la activación de una amplia variedad de estilos de aprendizaje. Pueden encontrar diversas maneras de abordar problemas y plantear solciones.
+
+  Es por ello que debemos de considerar cuaro fases, en escencia, para resolver problemas específicos mediante la programación de computadores.
+
+1.- Analizar el problema.
+2.- Diseñar el algoritmo.
+3.- Traducir el algoritmo a un lenguaje de programación.
+4.- Depurar el programa.
+
+Definicion del problema:
+
+  Esta fase está dada por el enunciado del problema, el cual requiere una definición clara y precisa. Es importante que se conozca lo que se desea que realice la computadora; mientras esto no se conozca del todo no tiene mucho caso continuar con la siguiente etapa.
+  
+Análisis del problema:
+
+  Una vez que se ha comprendido lo que se desea de la computadora, es necesario definir:
+  
+  - Los datos de entrada.
+  - Cuál es la informacion que se desea producir (salida).
+  - Los métodos y fórmulas que se necesitan para procesar los datos.
+
+Diseño del algoritmo:
+
+  Las caracteristicas de un buen algoritmo son:
+  
+  - Debe tener un purto particular de inicio.
+  - Debe ser preciso e indicar el orden de realización de cada paso.
+  - Debe ser definido, no debe permitir dobles interpretaciones.
+  - Debe ser general.
+  - Debe ser finito en tamaño y en tiempo de ejecución.
+  
+Codificación:
+
+  La codificación es la operación de escribir la solución del programa (de acuerdo a la lógica del diagrama de flujo o pseudocodigo), en una serie de instrucciones detalladas, en un código reconocible por la computadora, la serie de instrucciones detalladas se le conoce como código fuente, el cual se escribe en un. lenguaje de programación.
+  
+Prueba y depuración:
+
+  Los errores humanos dentro de la programación de computadoras son muchos y aumentan considerablemente con la complejidad del problema. El proceso de identificar y eliminar errores, para dar paso a una solución sin errores se le llama depuración.
+  
+  La depuración o prueba resulta una tarea tan creativa como el mismo desarrollo de la solcuion, por ello se debe considerar con el mismo interes y entusiasmo.
+  
+Documentación:
+
+  Es la guía o comunicación escrita en sus variadas formas, ya sea en enunciados, procedimiemtos, dibujos o diagramas.
+  
+  A menudi un prorama escrito por una persona, es usado por otra. Por ello la documentación sirve para ayudar a comprender o usar un programa o para facilitar futuras modificaciones (mantenimiento).
+  
+  La documentación se divide en tres partes:
+  
+  - La documentacion interna (comentarios en el codigo).
+  - La docuemntación externa.
+  - Manual de usuario.
+  
+Mantenimiento:
+
+  Se lleva a cabo despues de terminado el programa, cuando se detecta que es necesario hacer algún cambio, ajuste o complementación al programa para que siga trabajando de manera correcta. Para poder realizar este trabajo se requiere que el programa este correctamente documentado.
