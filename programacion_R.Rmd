@@ -228,3 +228,60 @@ Documentación:
 Mantenimiento:
 
   Se lleva a cabo despues de terminado el programa, cuando se detecta que es necesario hacer algún cambio, ajuste o complementación al programa para que siga trabajando de manera correcta. Para poder realizar este trabajo se requiere que el programa este correctamente documentado.
+
+## 2.- Entidades primitivas.
+
+### 2.1.- Descargar e instalar PSeInt.
+
+PSeInt es una herramienta para asistir a un estudiante en sus primeros pasos en prgramación. Medieante un simple e intuitivo pseudolenguaje en español (complementado con un editor de diagramas de flujo), le permite centrar su atención en los conceptos funamentales de la algoritmia computacional, minimizando las dificultades propias de un lenguaje y proporcionando un entorno de trabajo con numerosas ayudas y recursos didácticos.
+
+- En google poner desvargar pseint y dar enter.
+- Se selecciona el sistema operativo de la computadora.
+- Se descarga y posteriormente se da doble click en el ejecutable.
+
+### 2.2.- Identificadores (Constantes y Variables).
+
+Identificador.- representa los datos de un programa (constante o variable). Un identificador es una cadena de caracteres que sirve para identificar una posicion en la memoria de la computadora, que nos permite accesar a su contenido.
+
+entero (tipo de dato) numero (nombre del identificador);
+
+Reglas para formar un identificador:
+
+- La palabra debe comenzar con una letra (A-Z, mayusculas o minusculas) y no deben contener espacios en blanco.
+- Letras, digitos y caracteres, pueden estar unidos por un caracter subrayado "_".
+- El primer caracter no puede ser un numero.
+
+Ejemplo:
+
+letra
+n_kilos
+Resultado1
+n_personas2
+
+Tipos de identificadores:
+
+- Constantes.- Es un dato numerico o alfanumerico que no cambia durante la ejecucion del programa.
+
+Ejemplo:
+
+PI = 3.1416
+
+- Variables.- Es un espacio en la memoria de la computadora que permite almacenar temporalmente un dato durante la ejecucion de un proceso, su contenido puede cambiar durante la ejecucion del programa.
+
+Ejemplo:
+
+area = (base * altura) / 2
+
+Clasificacion de las variables:
+
+- Por su contenido:
+
+  - Numericas
+  - Lógicas
+  - Alfanumericas (string)
+
+- Por su uso:
+
+  - De trabajo
+  - Contadores
+  - Acumuladores
