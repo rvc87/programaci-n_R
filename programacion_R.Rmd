@@ -131,5 +131,41 @@ Son aquellos en los que las instruccion o sentencia son escritas con palabras si
 Ventaja: son independientes de cada máquina, los que los hace portables.
 Desventaja: el proceso de traducción es muy largo y ocupa más recursos.
 
+### 1.4.- Lenguaje de programación (parte 2).
+
 * Según la forma de ejecución.
+
+  - Lenguajes compilados.
+  
+  Se compilan una vez y se utilizan cuantas veces se desee sin necesidad de volver a utilizar el compilador.
+  Los compiladores analizan todo el programa y no generan resultados si no es correcto todo el codigo.
+  
+  - Lenguajes interpretados.
+  
+  Son interpretados cada vez que se ejecutan y necesitan siempre del interprete.
+  Los interpretes analizan las instrucciones segun las necesitan y pueden iniciar la ejecución de un programa con errores.
+
 * Según el paradigma de programación.
+
+  Un paradigma de programación representa un enfoque particular o filosofía para la construcción de un software. Tipos de paradigmas:
+  
+  - Algorítmico, imperativo o por procedimientos.
+  
+  Es el más común y está representado, por ejemplo por lenguajes de programación como C o BASIC.
+  Describe la programación en términos del estado del programa y sentencias que cambian dicho estado. Los programas imperativos son un conjunto de instrucciones que le indican al computador cómo realizar una tarea.
+  
+  - Declarativo o predicativo.
+  
+  Basado en la utilización de predicados lógicos o funciones matemáticas, su objetivo es conseguir lenguajes expresivos en los que no sea necesario especificar como resolver el problema (programación convencional imperativa).
+  
+  - Lógico.
+  
+  El mecanismo de inferencia genérico se basa en los procedimientos de deducción de fórmulas válidas en un sistema axiomático.
+  
+  - Funcional.
+  
+  Representado por la familia de lenguajes LISP. El mecanismo de inferencia genérico se basa en la reproducción de una expresión funcional a otra equivalente simplificada.
+  
+  - Orientado a objetos.
+  
+  Cada vez más utilizado, sobre todo en combinación con el imperativo. De hecho los lenguajes orientados a objetos permiten la programación imperativa. Algunos ejemplos de lenguajes orientados son C++, Java, Python, etc. Usa objetos y sus interacciones para diseñar aplicaciones y programas de computadora. Esta basado en varias técnicas, incluyendo herencia, modularidad, polimorfismo y encapsulamiento.
