@@ -94,3 +94,42 @@ Lenguajes algorítmicos.- Es una serie de simbolos y reglas que se utilizan para
   * No gráficos.- Representa en forma descriptiva las operaciones que debe realizar un añgoritmo. Por ejemplo: Pseudocódigo.
   
 * Programa.- Es el conjunto de instrucciones escritas en algún lenguaje de programación y que ejecutadas secuencialmente resuelven un problema especifico.
+
+### 1.3.- Lenguaje de programación (parte 1).
+
+¿Que es un lenguaje de programación?
+
+  Es un conjunto de símbolos de reglas sintácticas y semánticas que definen su estructura y el significado de sus elementos y expresiones, y es utilizado para controlar el comportamiento físico y lógico de una maquina.
+
+  Los lenguajes de programación tienen un conjunto de instrucciones que nos permiten realizar operaciones de entrada/salida, cálculos, manipulación de textos, lógica/comparación y almacenameinto/recuperacion.
+  
+Tipos de lenguaje de programación:
+
+* Según el nivel de abstracción.
+
+  - Lenguaje de máquina.
+  
+Las instrucciones en el lenguaje de máquina se expresan en términos de la unidad de memoria mas pequeña: el bit (dígito binario 0 o 1).
+Ventaja: No necesita ser traducido, tiene una mayor adaptación al equipo.
+Desventaja: La dificultad y lentitud en la codificación.
+      
+  - Lenguajes de bajo nivel.
+  
+Tambien llamado lenguaje ensamblador, se utilizan palabras mnemotécnicas (abreviaturas). Por ejemplo, mnemotécnicos típicos de operaciones aritméticas: ADD (sumar), SUB (restar), DIV (dividir), etc. Ejemplo:
+
+ADD A, B C
+
+"Suma (ADD) el número que tengas guardado en A mas el número que esta guardado en la posicion B y esa suma guardala en la posicion C".
+
+Ventaja: no es tan dificíl como el lenguaje máquina.
+Desventaja: cada máquina tiene su propio lenguaje, necesitamos un proceso de traducción.
+
+  - Lenguajes de alto nivel.
+  
+Son aquellos en los que las instruccion o sentencia son escritas con palabras similiares a los lenguajes humanos (ingles), lo que facilita la escritura y comprensión del programa.
+
+Ventaja: son independientes de cada máquina, los que los hace portables.
+Desventaja: el proceso de traducción es muy largo y ocupa más recursos.
+
+* Según la forma de ejecución.
+* Según el paradigma de programación.
