@@ -324,3 +324,45 @@ Proceso principal
 	Definir palabra Como Cadena;
 	
 FinProceso
+
+### 2.4.- Operación de asignación.
+
+Consiste en atribuir un valor a una variabe:
+
+  nombre_de_la_variable <- expresion
+  
+En algunos lenguajes de programacion, el simbolo puede variar a:
+
+" = ", " := "
+
+El proceso de asignacion se realiza en dos fases:
+
+  num = 10;
+  
+1.- Se evalua la expresion de la parte derecha de la asignacion obteniendose un unico valor.
+
+2.- Se asigna ese valor a la variable de la parte izquierda, sustituyendose el valor que tenia amteriormente.
+
+¿Que es lo que hay que tener en cuenta?
+
+  * En la parte izquierda solo puede haber una variable.
+  * La variable a la que se le asigna el valor pierde su valor anterior.
+  * El tipo de dato del valor que se obtiene al evaluar la parte derecha tiene que ser el mismo que el tipo de dato de la variable de parte izquierda, es decir una variable solo se le pueden dar valores de su mismo tipo de dato.
+
+// Operación de asignación
+
+Proceso principal
+	
+	Definir numero1 Como Entero; // La variable numero1 es entera
+	Definir numero2 Como Real;
+	Definir misterio Como Logico;
+	Definir letra Como Caracter;
+	Definir palabra Como Cadena;
+	
+	numero1 <- 11;
+	numero2 <- 11.11;
+	misterio <- verdadero;
+	letra <- 'r';
+	palabra <- "Hola";
+	
+FinProceso
