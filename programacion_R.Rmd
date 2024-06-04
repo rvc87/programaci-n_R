@@ -266,11 +266,24 @@ Ejemplo:
 
 PI = 3.1416
 
+```{r constantes en R}
+constante_pi <- pi
+constante_pi
+```
+
 - Variables.- Es un espacio en la memoria de la computadora que permite almacenar temporalmente un dato durante la ejecucion de un proceso, su contenido puede cambiar durante la ejecucion del programa.
 
 Ejemplo:
 
 area = (base * altura) / 2
+
+```{r variables en R}
+base <- 3
+altura <- 3.5
+area <- (base * altura) / 2
+
+area
+```
 
 Clasificacion de las variables:
 
@@ -325,6 +338,20 @@ Proceso principal
 	
 FinProceso
 
+```{r tipos de datos en R}
+numero1 <- 1
+numero2 <- 1.1
+misterio <- TRUE
+letra <- 'a'
+palabra <- "vargas"
+
+str(numero1)
+str(numero2)
+str(misterio)
+str(letra)
+str(palabra)
+```
+
 ### 2.4.- Operación de asignación.
 
 Consiste en atribuir un valor a una variabe:
@@ -338,7 +365,12 @@ En algunos lenguajes de programacion, el simbolo puede variar a:
 El proceso de asignacion se realiza en dos fases:
 
   num = 10;
-  
+
+```{r operador de asignacion en R}
+num <- 10
+str(num)
+```
+
 1.- Se evalua la expresion de la parte derecha de la asignacion obteniendose un unico valor.
 
 2.- Se asigna ese valor a la variable de la parte izquierda, sustituyendose el valor que tenia amteriormente.
@@ -366,3 +398,17 @@ Proceso principal
 	palabra <- "Hola";
 	
 FinProceso
+
+```{r }
+  numero1 <- 11
+	numero2 <- 11.11
+	misterio <- TRUE
+	letra <- 'r'
+	palabra <- "Hola"
+	
+str(numero1)
+str(numero2)
+str(misterio)
+str(letra)
+str(palabra)
+```
