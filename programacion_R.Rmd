@@ -703,3 +703,44 @@ paste("El valor absoluto del numero es:", resultado)
 ```
 [1] "El valor absoluto del numero es: 11.11"
 
+### 2.10.- Ejercicio 1.- Operación Artitmética.
+
+Ejercicio 1:
+
+Escribir la formula general en forma de expresión algorítmica.
+
+// Ejercicio 1: operación aritmetica
+
+Proceso principal
+	
+	definir a, b, c, resultado como reales;
+	
+	escribir "Digite el valor de a: ";
+	leer a;
+	escribir "Digite el valor de b: ";
+	leer b;
+	escribir "Digite el valor de c: ";
+	leer c;
+	
+	resultado <- (-b + rc(b^2 - 4 * a * c)) / (2 * a);
+	
+	escribir "El resultado es el siguiente: ", resultado;
+	
+FinProceso
+
+```{r}
+a <- as.numeric(readline("Digite el valor de a: "))
+b <- as.numeric(readline("Digite el valor de b: "))
+c <- as.numeric(readline("Digite el valor de c: 10"))
+resultado <- (-b + sqrt(b^2 - 4 * a * c)) / (2 * a)
+paste("El resultado es el siguiente:", resultado)
+```
+Digite el valor de a: 3
+> b <- as.numeric(readline("Digite el valor de b: "))
+Digite el valor de b: 10
+> c <- as.numeric(readline("Digite el valor de c: "))
+Digite el valor de c: 2
+> resultado <- (-b + sqrt(b^2 - 4 * a * c)) / (2 * a)
+> paste("El resultado es el siguiente:", resultado)
+
+[1] "El resultado es el siguiente: -0.213700352153109"
