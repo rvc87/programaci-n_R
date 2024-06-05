@@ -744,3 +744,43 @@ Digite el valor de c: 2
 > paste("El resultado es el siguiente:", resultado)
 
 [1] "El resultado es el siguiente: -0.213700352153109"
+
+### 2.11.- Ejercicio 2.- Operación con los tres tipos de operadores.
+
+Determinar la solucion logica de la siguiente operacion:
+
+((3 + 5 * 8) < 3 AND ((-6 / 3 * 4) + 2 < 2)) OR (a > b)
+
+// Ejercicio 2.- Operación con los tres tipos de operadores.
+
+Proceso principal
+	
+	definir a, b como reales;
+	definir resultado como logico;
+	
+	escribir "digite el valor de a: ";
+	leer a;
+	escribir "digite el valor de b: ";
+	leer b;
+	
+	resultado <- ((3 + 5 * 8) < 3 y ((-6 / 3 * 4) + 2 < 2)) o (a > b);
+	
+	escribir "El resultado es el siguiente: ", resultado;
+	
+FinProceso
+
+```{r}
+a <- as.numeric(readline("digite el valor de a: "))
+b <- as.numeric(readline("digite el valor de b: "))
+resultado <- ((3 + 5 * 8) < 3 & ((-6 / 3 * 4) + 2 < 2)) | (a > b)
+paste("El resultado es el siguiente:1",resultado)
+```
+> a <- as.numeric(readline("digite el valor de a: "))
+digite el valor de a: 10
+> b <- as.numeric(readline("digite el valor de b: "))
+digite el valor de b: 5
+> resultado <- ((3 + 5 * 8) < 3 & ((-6 / 3 * 4) + 2 < 2)) | (a > b)
+> paste("El resultado es el siguiente:",resultado)
+
+[1] "El resultado es el siguiente: TRUE"
+
