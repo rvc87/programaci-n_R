@@ -412,3 +412,19 @@ str(misterio)
 str(letra)
 str(palabra)
 ```
+### 2.5.- Entrada y salida de información.
+
+* Entrada de infomración.- Las operaciones de entrada permiten leer determinados valores y asignarlos a determinadas variables. La entrada se conoce como Leer.
+
+* Salida de información.- Son los diferentes mensajes que se le envian al usuario, ya se para pedir un valor o tambien para mostrar un resultado. La salida se conoce como Escribir.
+
+Proceso principal
+	
+	Definir num Como Entero;
+	
+	Escribir "Digite un valor entero";
+	Leer num;
+	
+	Escribir "El numero es: ", num;
+	
+FinProceso
