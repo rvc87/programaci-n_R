@@ -428,3 +428,106 @@ Proceso principal
 	Escribir "El numero es: ", num;
 	
 FinProceso
+
+### 2.6.- Operadores y operandos - Operadores aritméticos.
+
+* Operadores.- Son elementos que relacionan de forma diferente, los valores de una o mas variables y/o constantes. Es decir, los operadores nos permiten manipular valores.
+
+- Tipos de operadores:
+  
+  - Aritmeticos.
+  - Relacionales.
+  - Logicos.
+  
+* Operadores aritmeticos.- Los operadores aritmeticos permiten la realizacion de operaciones matematicas con los valores (variables y constantes).
+
+Los operadores aritmeticos pueden ser utilizados con tipos de datos enteros o reales. Si ambos son enteros, el resultado es entero; si alguno de ellos es real, el resultado es real.
+
+^ .- Exponenciación
++ .- Suma
+- .- Resta
+* .- Multiplicacion
+/ .- Division
+mod .- Residuo o resto
+
+Ejemplo:
+
+3 * 7 = 21
+29 / 7 = 4.14
+7 ^ 2 = 49 
+
+```{r operadores aritmeticos}
+3 * 7
+29 / 7
+7 ^ 2
+```
+[1] 21
+[1] 4.142857
+[1] 49
+
+Prioridad de los operadores aritmeticos:
+
+- Todas las expresiones entre parentesis se evaluan primero. Las espresiones con parentesis anidados se evaluan de dentro a afuera, el parentesis mas interno se evalua primero.
+- Dentro de una misma expresion los operadores se evaluan en el siguiente orden:
+
+1.- ^ - exponenciacion
+2.- *, /, mod - multiplicacion, division y modulo
+3.- +, - suma y resta
+
+Ejemplo:
+
+3 ^ 3 * (10 - (2 * 4))
+3 ^ 3 * (10 - (8))
+3 ^ 3 * (2)
+27 * 2
+54
+
+```{r}
+3 ^ 3 * (10 - (2 * 4))
+```
+[1] 54
+
+// Ejemplo de jerarquia de operadores aritmeticos en pseudocodigo
+
+Proceso principal
+	
+	Definir resultado Como Entero;
+	
+	resultado <- 3 ^ 3 * (10 - (2 * 4));
+	
+	Escribir "El resultado es: ", resultado;
+	
+FinProceso
+
+```{r}
+resultado <- resultado <- 3 ^ 3 * (10 - (2 * 4))
+paste("El resultado es:", resultado)
+```
+[1] "El resultado es: 54"
+
+// Ejemplo de operaciones con operadores arimtemticos en pseudocodigo
+
+Proceso principal
+	
+	Definir resultado Como Entero;
+	Definir num1 Como Entero;;
+	Definir num2 Como Entero;
+	
+	Escribir "Digite un numero: ";
+	Leer num1;
+	Escribir "Digite otro numero: ";
+	Leer num2;
+	
+	resultado <- num1 + num2;
+	
+	Escribir "El resultado es: ", resultado;
+	
+FinProceso
+
+```{r}
+num1 <- 10
+num2 <- 8
+resultado <- num1 + num2
+paste("El resultado de la operacion es:", resultado)
+```
+[1] "El resultado de la operacion es: 18"
