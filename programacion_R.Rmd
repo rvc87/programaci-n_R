@@ -672,3 +672,34 @@ FinProceso
 [1] "TRUE"
 [1] "TRUE"
 [1] "FALSE"
+
+### 2.9.- Funciones internas.
+
+* Funciones internas:
+
+Son funciones matematicas diferentes de las operaciones basicas pero se incorporan al lenguaje y que se consideran estandar.
+Dependen del lenguaje, Normalmente se encuentran en la libreria de matematicas del lenguaje de programacion.
+
+// Funciones internas
+
+Proceso principal
+	
+	Definir num Como Real;
+	Definir resultado Como Real;
+	
+	Escribir "Digite un numero: ";
+	Leer num;
+	
+	resultado <- abs(num);
+	
+	Escribir "El valor absoluto del numero es: ", resultado;
+	
+FinProceso
+
+```{r Funciones internas}
+num <- as.numeric(readline("Digite un numero:"))
+resultado <- abs(num)
+paste("El valor absoluto del numero es:", resultado)
+```
+[1] "El valor absoluto del numero es: 11.11"
+
