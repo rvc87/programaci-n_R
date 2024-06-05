@@ -537,3 +537,52 @@ resultado <- num1 + num2
 paste("El resultado de la operacion es:", resultado)
 ```
 [1] "El resultado de la operacion es: 18"
+
+### 2.7.- Operadores y operandos - Operadores relacionales.
+
+* Operadpres relacionales:
+
+  - Se utilizan para establecer una relacion entre dos valores.
+  - Compara estos valores entre si y esta comparacion prodeuce un resultado de certeza o falsedad (verdadero o falso.)
+  - Los operadores relacionales comparan valores del mismo tipo.
+  - Tienen el mismo nivel de prioridad en su evaluacion.
+  - Los operadores relacionales tienen menor prioridad que los aritmeticos.
+  
+  (>) .- mayor que
+  (<) .- menor que
+  (>=) .- mayor o igual que
+  (<=) .- menor o igual que
+  (<>, !=) .- diferente 
+  (=, ==) .- igual
+  
+  // operadores relacionales
+
+Proceso principal
+	
+	Definir resultado Como Logico;
+	Definir a Como Entero;
+	Definir b Como Entero;
+	Definir c Como Entero;
+	
+	a <- 10;
+	b <- 20;
+	c <- 30;
+	
+	resultado <- a + b > c;
+	
+	Escribir "El resultado es: ", resultado;
+	
+FinProceso
+
+```{r}
+
+	a <- 10;
+	b <- 20;
+	c <- 30;
+	
+	resultado <- a + b > c;
+	
+	paste("El resultado es: ", resultado)
+	
+```
+[1] "El resultado es:  FALSE"
