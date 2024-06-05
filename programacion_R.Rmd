@@ -530,11 +530,13 @@ Proceso principal
 	
 FinProceso
 
-```{r}
-num1 <- as.numeric(readline("Digite un numero: "))
-num2 <- as.numeric(readline("Digite otro numero: "))
-resultado <- num1 + num2
-paste("El resultado de la operacion es:", resultado)
+```{r operadores aritmeticos}
+
+	num1 <- as.numeric(readline("Digite un numero: "))
+	num2 <- as.numeric(readline("Digite otro numero: "))
+	resultado <- num1 + num2
+	paste("El resultado de la operacion es:", resultado)
+
 ```
 [1] "El resultado de la operacion es: 18"
 
@@ -574,7 +576,7 @@ Proceso principal
 	
 FinProceso
 
-```{r}
+```{r operadores relacionales}
 
 	a <- 10;
 	b <- 20;
@@ -586,3 +588,87 @@ FinProceso
 	
 ```
 [1] "El resultado es:  FALSE"
+
+### 2.8.- Operadores lógicos.
+
+* Operadores lógicos:
+
+  - Estos valores se utilizan para establecer relaciones entre valores lógicos.
+  - Estos valores pueden ser resultado de una epxresion relacional.
+  
+AND (conjuncion)
+
+TRUE AND TRUE = TRUE
+TRUE AND FALSE = FALSE
+FALSE AND TRUE = FALSE
+FALSE AND FALSE = FALSE
+
+OR (disyuncion)
+
+TRUE OR TRUE = TRUE
+TRUE OR FALSE = TRUE
+FALSE OR TRUE = TRUE
+FALSE OR FALSE = FALSE
+
+NOT (negacion)
+
+NOT TRUE = FALSE
+NOT FALSE = TRUE
+
+Prioridad de los operadores lógicos:
+
+1.- NOT
+2.- AND
+3.- OR
+
+Prioridad de los operadores en general:
+
+1.- ()
+2.- ^
+3.- *, /, mod, NOT
+4.- +, -
+5.- >, <, =, >=, <=, <>, OR
+
+// operadores logicos
+
+Proceso principal
+	
+	Definir a Como Entero;
+	Definir b Como Entero;
+	Definir c Como Entero;
+	Definir resultado_AND Como Logico;
+	Definir resultado_OR Como Logico;
+	Definir resultado_NOT Como Logico;
+	
+	a <- 10;
+	b <- 15;
+	c <- 20;
+	
+	resultado_AND <- ((a < b) y (b < c));
+	resultado_OR <- ((a < b) o (b < c));
+	resultado_NOT <- no ((a < b) y (b < c));
+	
+	Escribir resultado_AND;
+	Escribir resultado_OR;
+	Escribir resultado_NOT;
+	
+FinProceso
+
+```{r operadores logicos}
+
+	a <- 10;
+	b <- 15;
+	c <- 20;
+	
+	resultado_AND <- ((a < b) & (b < c));
+	resultado_OR <- ((a < b) | (b < c));
+	resultado_NOT <- ! ((a < b) | (b < c));
+	
+	paste(resultado_AND)
+        paste(resultado_OR)
+        paste(resultado_NOT)
+	
+```
+[1] "TRUE"
+[1] "TRUE"
+[1] "FALSE"
