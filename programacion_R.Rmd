@@ -429,6 +429,12 @@ Proceso principal
 	
 FinProceso
 
+```{r}
+num <- as.numeric(readline(("Digite un valor entero: ")))
+paste("El numero es: ", num)
+```
+[1] "El numero es:  11"
+
 ### 2.6.- Operadores y operandos - Operadores aritméticos.
 
 * Operadores.- Son elementos que relacionan de forma diferente, los valores de una o mas variables y/o constantes. Es decir, los operadores nos permiten manipular valores.
@@ -525,8 +531,8 @@ Proceso principal
 FinProceso
 
 ```{r}
-num1 <- 10
-num2 <- 8
+num1 <- as.numeric(readline("Digite un numero: "))
+num2 <- as.numeric(readline("Digite otro numero: "))
 resultado <- num1 + num2
 paste("El resultado de la operacion es:", resultado)
 ```
