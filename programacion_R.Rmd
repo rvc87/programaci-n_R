@@ -784,3 +784,57 @@ digite el valor de b: 5
 
 [1] "El resultado es el siguiente: TRUE"
 
+### 2.12.- Ejercicio 3.- Intercambiar el valor de dos variables.
+
+Ejercicio 3:
+
+Hacer un programa para intercambiar el valor de dos variables.
+
+a = 10 -> a = 5
+b = 5 -> b = 10
+
+// Ejercicio 3: Intercambiar el valor de dos variables
+
+Proceso principal
+	
+	definir a, b, c como enteros;
+	
+	escribir "ingresa el valor de a: ";
+	leer a;
+	escribir "ingresa el valor de b: ";
+	leer b;
+	
+	c <- a;
+	a <- b;
+	b <- c;
+	
+	escribir "el nuevo valor de a es: ",a;
+	escribir "el nuevo valor de b es: ",b;
+	
+FinProceso
+
+```{r}
+a <- as.numeric(readline("Ingresa el valor de a: "))
+b <- as.numeric(readline("Ingresa el valor de b: "))
+
+c <- a
+a <- b
+b <- c
+
+paste("El nuevo valor de a es: ",a)
+paste("El nuevo valor de b es: ",b)
+```
+> a <- as.numeric(readline("Ingresa el valor de a: "))
+Ingresa el valor de a: 10
+> b <- as.numeric(readline("Ingresa el valor de b: "))
+Ingresa el valor de b: 5
+> 
+> c <- a
+> a <- b
+> b <- c
+> 
+> paste("El nuevo valor de a es: ",a)
+[1] "El nuevo valor de a es:  5"
+> paste("El nuevo valor de b es: ",b)
+[1] "El nuevo valor de b es:  10"
+
