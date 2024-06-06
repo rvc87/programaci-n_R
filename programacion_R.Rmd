@@ -930,3 +930,85 @@ digite el numero de minutos: 1
 digite el numero de segundos: 1
 
 [1] "el total de segundos es: 3661"
+
+### 4.2.- Ejercicio 2 - Área y longitud de un círculo.
+
+Ejercicio 2: Hacer un programa para ingresar el radio de un circulo y se reporte su área y la longitud de la circunferencia.
+
+//  4.2.- Ejercicio #2
+
+Proceso principal
+	
+	definir radio como real;
+	definir area como real;
+	definir long como real;
+	
+	escribir "ingrese el radio del circulo: ";
+	leer radio;
+	
+	area <- PI * radio^2;
+	long <- 2 * PI * radio;
+	
+	escribir "el area del circulo es: ", area, " y su longitud: ", long;
+	
+FinProceso
+
+```{r}
+radio <- as.numeric(readline("ingrese el radio del circulo: "))
+
+area <- pi * radio^2
+longitud <- 2 * pi * radio;
+
+paste("el area del circulo es: ", area, " y su longitud es: ", longitud)
+```
+ingrese el radio del circulo: 18
+[1] "el area del circulo es:  1017.87601976309  y su longitud es:  113.097335529233"
+
+### 4.3.- Ejercicio 3 - Porcentaje de hombres y de mujeres.
+
+Ejercicio 3: Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.
+
+//  4.3.- Ejercicio #3
+
+Proceso principal
+	
+	definir hombres como entero;
+	definir mujeres como entero;
+	definir total como entero;
+	definir porcentaje_hombres como real;
+	definir porcentaje_mujeres como real;
+	
+	
+	escribir "ingrese el numero de hombres en el grupo: ";
+	leer hombres;
+	escribir "ingrese el numero de mujeres en el grupo: ";
+	leer mujeres;
+	
+	total <- hombres + mujeres;
+	
+	porcentaje_hombres <- (hombres / total) * 100;
+	porcentaje_mujeres <- (mujeres / total) * 100;
+	
+	escribir "el porcentaje de hombres en el grupo es: ", porcentaje_hombres, "%";
+	escribir "el porcentaje de mujeres en el grupo es: ", porcentaje_mujeres, "%";
+	
+FinProceso
+
+```{r}
+hombres <- as.numeric(readline("ingrese el numero de hombres en el grupo: "))
+mujeres <- as.numeric(readline("ingrese el numero de mujeres en el grupo: "))
+
+total <- hombres + mujeres
+
+porcentaje_hombres <- (hombres / total) * 100
+porcentaje_mujeres <- (mujeres / total) * 100
+
+paste("el porcentaje de hombres en el grupo es: ", porcentaje_hombres, "%")
+paste("el porcentaje de mujeres en el grupo es: ", porcentaje_mujeres, "%")
+```
+ingrese el numero de hombres en el grupo: 10
+ingrese el numero de mujeres en el grupo: 10
+
+[1] "el porcentaje de hombres en el grupo es:  50 %"
+[1] "el porcentaje de mujeres en el grupo es:  50 %"
+
