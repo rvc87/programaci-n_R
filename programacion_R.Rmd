@@ -876,3 +876,57 @@ Proceso principal
 	escribir "el resutlado de la suma es: ", resultado;
 	
 FinProceso
+
+## 4.- Estructuras secuenciales.
+
+### 4.1.- Concepto de estructuras secuenciales y ejercicio 1.
+
+* Estructuras secuenciales.- Son aquellas en la que una accion sigue a otra en secuencia. Las tareas se suceden del tal modo que la salida de una es la entrada de la siguiente y así sucesivamente hasta el fin del proceso. Una estructura secuencial se representa de la siguiente forma:
+
+Inicio
+  Accion1
+  Accion2
+  Accion3
+Fin
+
+Ejercicio 1:
+
+Calcular la cantidad de segundos que estan incluidos en el numero de horas, minutos y segundos por el usuario.
+
+//  4.1.- Ejercicio #1
+
+Proceso principal
+	
+	definir horas como entero;
+	definir minutos como entero;
+	definir seg como entero;
+	definir total_seg como entero;
+	
+	escribir "digite el numero de horas: ";
+	leer horas;
+	escribir "digite el numero de minutos: ";
+	leer minutos;
+	escribir "digite el numero de segundos: ";
+	leer seg;
+	
+	total_seg <- (horas * 3600) + (minutos * 60) + seg;
+	
+	escribir "el total de segundos es: ", total_seg;
+	
+	
+FinProceso
+
+```{r 4.1.- ejercicio 1}
+horas <- as.numeric(readline("digite el numero de horas: "))
+minutos <- as.numeric(readline("digite el numero de minutos: "))
+segundos <- as.numeric(readline("digite el numero de segundos: "))
+
+total_segundos <- (horas * 3600) + (minutos * 60) + segundos
+
+paste("el total de segundos es:", total_segundos)
+```
+digite el numero de horas: 1
+digite el numero de minutos: 1
+digite el numero de segundos: 1
+
+[1] "el total de segundos es: 3661"
