@@ -838,3 +838,15 @@ Ingresa el valor de b: 5
 > paste("El nuevo valor de b es: ",b)
 [1] "El nuevo valor de b es:  10"
 
+## 3.- Representación de Algoritmos.
+
+### 3.1.- Diagrama de flujo.
+
+* Diagrama de flujo.- Es la representacion gracifica de un algoritmo. Tambien se puede decir que es la representacion detallada en forma grafica de como deben realizarse los pasos en la computadora para producir resultados.
+
+Esta representacion grafica se da cuando varios simbolos (que indican diferentes procesos en la computadora), se relacionan entre si mediante lineas que indican el orden en que se deben ejecutar los procesos.
+
+elipse.- inicio / fin del programa
+rectnagulo.- declarar / inicializar variables
+rectangulo punteado.- comentarios
+paralelogramo.- entrada / salida de informacion
