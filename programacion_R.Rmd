@@ -850,3 +850,29 @@ elipse.- inicio / fin del programa
 rectnagulo.- declarar / inicializar variables
 rectangulo punteado.- comentarios
 paralelogramo.- entrada / salida de informacion
+
+### 3.2.- Diagrama estructurado N-S.
+
+* Diagrama estructurado N - S.- El diagrama estructurado N -S tmabien conocido como diagrama chapín es como un diagrama de flujo en el que se omiten las flechas de union y las cajas son contiguas. Un algoritmo se representa en la siguiente fomra:
+
+### 3.3.- Pseudocódigo.
+
+* Pseudocódigo.- Es una mezcla de un lenguaje de proramacion y nuestro idioma nativo, que se emplea dentro de la programacion estructurada, para realizar el diseño de un programa.
+
+Es la representacion narrativa de los pasos que debe seguir un algoritmo para dar solucion a un problema determinado. El pseudocódigo utiliza palabras que indican el proceso a realizar.
+
+//  3.3.- Pseudocódigo
+
+Proceso principal
+	
+	definir a,b,c, resultado como enteros;
+	a <- 10;
+	b <- 20;
+	
+	escribir "digite un numero: ";
+	leer c;
+	
+	resultado <- a + b + c;
+	escribir "el resutlado de la suma es: ", resultado;
+	
+FinProceso
