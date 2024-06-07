@@ -1058,3 +1058,35 @@ ingrese el numero de evaluaciones tipo c: 22
 
 [1] "El profesor se tardara en revisar todas las evaluaciones 4  horas y  16  minutos"
 
+### 4.5.- Ejercicio 5 - Descuento del 15% en una tienda.
+
+Ejercicio 5: Una tienda ofrece un descuento e 15% sobre el total de la compra y un cliente desea saber cuanto debera pagar finalmente por su compra.
+
+//Ejercicio 5 - Descuento del 15% en una tienda.
+
+Proceso principal
+	
+	definir compra_total como real;
+	definir compra_final como real;
+	
+	escribir "ingrese el total de compra: ";
+	leer compra_total;
+	
+	compra_final <- compra_total - (compra_total * 0.15);
+	
+	escribir "El total a pagar es: ", compra_final;
+	
+FinProceso
+
+```{r}
+compra_total <- as.numeric(readline("ingrese el total de la compra: "))
+
+compra_final <- compra_total - (compra_total * 0.15)
+
+paste("el total a pagar es: ", compra_final)
+```
+
+ingrese el total de la compra: 125
+
+[1] "el total a pagar es:  106.25"
+
