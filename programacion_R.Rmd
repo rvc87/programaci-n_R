@@ -1012,3 +1012,49 @@ ingrese el numero de mujeres en el grupo: 10
 [1] "el porcentaje de hombres en el grupo es:  50 %"
 [1] "el porcentaje de mujeres en el grupo es:  50 %"
 
+### 4.4.- Ejercicio 4 - Calcular el tiempo en revisar exámenes.
+
+Ejercicio 4: Un profesor prepara tres cuestionarios para una evalucacion final: A, B y C. Se sabe que se tarda 5 minutos en revisar el cuestionaria A, 8 en revisar el cuestionario B y 6 en el C. La cantidad de examenes de cada tipo se entran por teclado. ¿Cuantas horas y cuantos minutos se tardara en revisar todas las evalicaciones?
+
+//Ejercicio 4 - Calcular el tiempo en revisar exámenes.
+
+Proceso principal
+	
+	definir a, b, c, total  como enteros;
+	definir horas, minutos como enteros;
+	
+	escribir "ingrese el numero de evaluaciones A: ";
+	leer a;
+	escribir "ingrese el numero de evaluaciones B: ";
+	leer b;
+	escribir "ingrese el numero de evaluaciones C: ";
+	leer c;
+	
+	total <- (a * 5) + (b * 8) + (c * 6);
+	
+	horas <- trunc(total / 60);
+	minutos <- total mod 60; 
+	
+	escribir "El profesor se tardara en revisar todas las evaluaciones ", horas, " horas y ", minutos, " minutos";
+	
+FinProceso
+
+```{r}
+a <- as.numeric(readline("ingrese el numero de evaluaciones tipo a: "))
+b <- as.numeric(readline("ingrese el numero de evaluaciones tipo b: "))
+c <- as.numeric(readline("ingrese el numero de evaluaciones tipo c: "))
+
+total_minutos <- (a * 5) + (b * 8) + (c * 6)
+
+horas <- total_minutos %/% 60
+minutos <- total_minutos %% 60
+
+paste("El profesor se tardara en revisar todas las evaluaciones", horas, " horas y ", minutos, " minutos")
+```
+
+ingrese el numero de evaluaciones tipo a: 12
+ingrese el numero de evaluaciones tipo b: 8
+ingrese el numero de evaluaciones tipo c: 22
+
+[1] "El profesor se tardara en revisar todas las evaluaciones 4  horas y  16  minutos"
+
