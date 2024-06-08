@@ -1322,3 +1322,60 @@ digite el total de la compra: 100.1
 digite el total de la compra: 99.99
 [1] "el total a pagar es:$ 99.99"
 
+### 5.5.- Ejercicio 4 - Operaciones con dos números.
+
+Ejercicio 4:
+
+Leer dos numeros; si son iguales que los multiplique, si el primero es mayor que el segundo que los reste y si no que los sume.
+
+//Ejercicio 4 - Operaciones con dos números.
+
+Proceso principal
+	
+	definir num1, num2, resultado como enteros;
+	
+	escribir "ingrese el primer numero: ";
+	leer num1;
+	escribir "ingrese el segundo numero: ";
+	leer num2;
+	
+	si num1 = num2 Entonces
+		resultado <- num1 * num2;
+	sino
+		si num1 > num2 entonces
+			resultado <- num1 - num2;
+		SiNo
+			resultado <- num1 + num2;
+		FinSi
+	FinSi
+	
+	escribir "el resultado de la operacion es: ", resultado;
+	
+FinProceso
+
+```{r}
+num1 <- as.numeric(readline("ingrese el primer numero: "))
+num2 <- as.numeric(readline("ingrese el segundo numero: "))
+
+if (num1 == num2) {
+  resultado <- num1 * num2
+} else if (num1 > num2) {
+  resultado <- num1 - num2
+} else{
+  resultado <- num1 + num2
+}
+
+paste("el resultado es:",resultado)
+```
+ingrese el primer numero: 5
+ingrese el segundo numero: 5
+[1] "el resultado es: 25"
+
+ingrese el primer numero: 5
+ingrese el segundo numero: 4
+[1] "el resultado es: 1"
+
+ingrese el primer numero: 4
+ingrese el segundo numero: 5
+[1] "el resultado es: 9"
+
