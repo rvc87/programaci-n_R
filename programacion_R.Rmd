@@ -1090,3 +1090,66 @@ ingrese el total de la compra: 125
 
 [1] "el total a pagar es:  106.25"
 
+### 4.6.- Ejercicio 6 - Notas de un alumno.
+
+Ejercicio 6: Un alumno desea saber cual sera su calificacion final en la materia Algoritmos. Dicha calificacion se compone de los siguientes porcentajes:
+
+- 55% del promedio de sus tres calificaciones parciales.
+- 30% de la calificacion del examen final.
+- 15% de la calificacion de un trabajo final.
+
+//Ejercicio 6 - Notas de un alumno.
+
+Proceso principal
+	
+	definir parcial1, parcial2, parcial3, parcial_total como reales;
+	definir examen_final como real;
+	definir trabajo_final como real;
+	definir calificacion_final como real;
+	
+	escribir "ingresa la nota del primer parcial: ";
+	leer parcial1;
+	escribir "ingresa la nota del segundo parcial: ";
+	leer parcial2;
+	escribir "ingresa la nota del tercer parcial: ";
+	leer parcial3;
+	
+	escribir "ingresa la nota del examen final: ";
+	leer examen_final;
+	
+	escribir "ingresa la nota del trabajo final: ";
+	leer trabajo_final;
+	
+	parcial_total <- ((parcial1 + parcial2 + parcial3) / 3) * 0.55;
+	examen_final <- examen_final * 0.30;
+	trabajo_final <- trabajo_final * 0.15;
+	
+	calificacion_final <- parcial_total + examen_final + trabajo_final;
+	
+	escribir "Tu calificacion final es: ", calificacion_final;
+	
+FinProceso
+
+```{r}
+parcial_1 <- as.numeric(readline("ingresa la nota del primer parcial: "))
+parcial_2 <- as.numeric(readline("ingresa la nota del segundo parcial: "))
+parcial_3 <- as.numeric(readline("ingresa la nita del tercer parcial: "))
+examen_final <- as.numeric(readline("ingresa la nota del examen final: "))
+trabajo_final <- as.numeric(readline("ingresa la nota del trabajo final: "))
+
+parcial_total <- ((parcial_1 + parcial_2 + parcial_3) / 3) * 0.55
+examen_final <- examen_final * 0.30
+trabajo_final <- trabajo_final * 0.15
+
+calificacion_final <- parcial_total + examen_final + trabajo_final
+
+paste("Tu calificacion final es:", calificacion_final)
+```
+ingresa la nota del primer parcial: 10
+ingresa la nota del segundo parcial: 9.5
+ingresa la nita del tercer parcial: 9.5
+ingresa la nota del examen final: 8
+ingresa la nota del trabajo final: 9
+
+[1] "Tu calificacion final es: 9.06666666666667"
+
