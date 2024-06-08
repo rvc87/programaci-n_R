@@ -1228,3 +1228,56 @@ digite un numero: 8
 digite un numero: 9
 [1] "el numero:  9 es impar"
 
+### 5.3.- Ejercicio 2 - Alumno aprobado o reprobado.
+
+Ejercicio 2:
+
+Determinar si un alumno aprueba o reproeba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70; reprueba caso contrario.
+
+//Ejercicio 2 - Alumno aprobado o reprobado.
+
+Proceso principal
+	
+	definir nota1, nota2, nota3, promedio como reales;
+	
+	escribir "ingrese la primer nota: ";
+	leer nota1;
+	escribir "ingrese la segunda nota: ";
+	leer nota2;
+	escribir "ingrese la tercer nota: ";
+	leer nota3;
+	
+	promedio <- (nota1 + nota2 + nota3) / 3;
+	
+	si promedio >= 70 Entonces
+		escribir "aprobado";
+	SiNo
+		escribir "reprobado";
+	FinSi
+	
+FinProceso
+
+```{r}
+nota1 <- as.numeric(readline("ingrese la primer nota: "))
+nota2 <- as.numeric(readline("ingrese la segunda nota: "))
+nota3 <- as.numeric(readline("ingrese la tercer nota: "))
+
+promedio <- (nota1 + nota2 + nota3) / 3
+
+if (promedio >= 70) {
+  paste("aprobado")
+} else {
+  paste("reprobado")
+}
+```
+
+ingrese la primer nota: 70
+ingrese la segunda nota: 71
+ingrese la tercer nota: 72
+
+[1] "aprobado"
+
+ingrese la primer nota: 70
+ingrese la segunda nota: 70
+ingrese la tercer nota: 69
+[1] "reprobado"
