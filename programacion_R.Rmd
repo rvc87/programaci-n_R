@@ -1153,3 +1153,39 @@ ingresa la nota del trabajo final: 9
 
 [1] "Tu calificacion final es: 9.06666666666667"
 
+## 5.- Estrcuturas condicionales.
+
+### 5.1.- Concepto de condicionales.
+
+* Estructuras condicionales.- Comparan una variable contra otros valores, para que en base al resultado de esta compraciom, se siga un curso de accion dentro del programa. Existen tres tipos: simples, dobles y multiples.
+
+- Condicionales simples:
+  
+  sintaxis:
+  
+  si <condicion> entonces
+      acciones
+  finSi
+  
+- Condicionales dobles:
+
+  sintaxis:
+  
+  si <condicion> entonces
+      accion1
+    siNo
+      accion2
+  finSi
+
+- Condicionales multiples:
+
+  segun <condicion> hacer
+    opcion1:
+      accion1
+    opcion2:
+      accion2
+    opcion3:
+      accion3
+    de otro modo:
+      accion
+  finSegun
