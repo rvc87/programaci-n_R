@@ -1281,3 +1281,44 @@ ingrese la primer nota: 70
 ingrese la segunda nota: 70
 ingrese la tercer nota: 69
 [1] "reprobado"
+
+
+### 5.4.- Ejercicio 3 - Descuento si la compra supera a 100.
+
+Ejercicio 3:
+
+En un almacen se hace un 20% de descuento a los clientes cuya compra supere los $100. ¿Cual sera la cantidad que pagara una persona por su compra?
+
+//Ejercicio 3 - Descuento si la compra supera a 100.
+
+Proceso principal
+	
+	definir compra, pago como real;
+	
+	escribir "digite el total de la compra: ";
+	leer compra;
+	
+	si compra > 100 Entonces
+		pago <- compra - (compra * 0.20);
+		escribir "el total a pagar es: $", pago;
+	SiNo
+		escribir "el total a pagar es: $", compra;
+	finsi
+FinProceso
+
+```{r}
+compra <- as.numeric(readline("digite el total de la compra: "))
+
+if (compra > 100){
+  pago <- compra - (compra * 0.20)
+  paste("el total a pagar es:$", pago)
+} else {
+  paste("el total a pagar es:$", compra)
+}
+```
+digite el total de la compra: 100.1
+[1] "el total a pagar es:$ 80.08"
+
+digite el total de la compra: 99.99
+[1] "el total a pagar es:$ 99.99"
+
