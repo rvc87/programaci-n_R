@@ -1437,3 +1437,73 @@ ingrese el primer numero: 8
 ingrese el segundo numero: 9
 ingrese el tercer numero: 10
 [1] "el numero mayor es:  10"
+
+### 5.7.- Ejercicio 6 - Descuento según kilos de manzanas.
+
+Ejercicio 6:
+
+Una fruteria ofrece las manzanas con descuento segun la siguiente informacion:
+
+* 0 - 2 kg -> descuento de 0%
+* 2.01 - 5 kg -> descuento de 10%
+* 5.01 - 10 kg -> descuento de 15%
+* 10.01 - adelante -> descuento de 20%
+
+Determinar cuanto pagara una persona que compre manzanas en esa fruteria.
+
+//Ejercicio 6 - Descuento según kilos de manzanas.
+
+Proceso principal
+	
+	definir precio_kilo como real;
+	definir precio_inicial como real;
+	definir kilos como real;
+	definir precio_final como real;
+	
+	escribir "ingrese el precio por kilo de las manzanas: ";
+	leer precio_kilo;
+	escribir "ingres el numero de kilos a comprar: ";
+	leer kilos;
+	
+	precio_inicial <- precio_kilo * kilos;
+	
+	si kilos <= 2 Entonces
+		precio_final <- precio_inicial;
+	SiNo
+		si kilos > 2 y kilos <= 5 Entonces
+			precio_final <- precio_inicial - (precio_inicial * 0.10);
+		SiNo
+			si kilos > 5 y kilos <= 10 Entonces
+				precio_final <- precio_inicial - (precio_inicial * 0.15);
+			SiNo
+				precio_final <- precio_inicial - (precio_inicial * 0.20);
+			finsi	
+		FinSi
+	FinSi
+	
+	escribir "El precio a pagar es: ", precio_final;
+	
+FinProceso
+
+```{r}
+precio_kilo <- as.numeric(readline("ingrese el precio por kilo de las manzanas: ")) 
+kilos <- as.numeric(readline("ingrese el numero de kilos a comprar: "))
+
+precio_inicial <- precio_kilo * kilos
+
+if (kilos <= 2) {
+  precio_final <- precio_inicial
+} else if (kilos > 2 & kilos <= 5) {
+  precio_final <- precio_inicial - (precio_inicial * 0.10)
+} else if (kilos > 5 & kilos <= 10) {
+  precio_final <- precio_inicial - (precio_inicial * 0.15)
+} else {
+  precio_final <- precio_inicial - (precio_inicial * 0.20)
+}
+
+paste("el precio a pagar es: $", precio_final)
+```
+ingrese el precio por kilo de las manzanas: 2
+ingrese el numero de kilos a comprar: 4
+[1] "el precio a pagar es: $ 7.2"
+
