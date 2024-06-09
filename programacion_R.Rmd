@@ -1507,3 +1507,46 @@ ingrese el precio por kilo de las manzanas: 2
 ingrese el numero de kilos a comprar: 4
 [1] "el precio a pagar es: $ 7.2"
 
+### 5.8.- Ejercicio 7 - Día de la semana según un número.
+
+Ejercicio 7:
+
+Elaborar un programa que me muestre los dias de la semana cuando ingrese los primeros 7 numeros.
+
+//Ejercicio 7 - Día de la semana según un número.
+
+Proceso principal
+	
+	definir dia como entero;
+	
+	escribir "ingrese el numero del dia que quiere ver: ";
+	leer dia;
+	
+	segun dia hacer
+		1: escribir "lunes";
+		2: escribir "martes";
+		3: escribir "miercoles";
+		4: escribir "jueves";
+		5: escribir "viernes";
+		6: escribir "sabado";
+		7: escribir "domingo";
+		de otro modo:
+			escribir "el numero ingresado no es valido";
+	FinSegun
+	
+FinProceso
+
+```{r}
+dia <- as.numeric(readline("ingrese un numero del dia de la semana: "))
+
+switch(dia,
+       "lunes",
+       "martes",
+       "miercoles", 
+       "jueves",
+       "viernes",
+       "sabado",
+       "domingo")
+```
+ingrese un numero del dia de la semana: 3
+[1] "miercoles"
