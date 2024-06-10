@@ -1667,3 +1667,54 @@ digite una opcion: 1
 digite un numero: 5
 digite la potencia: 2
 [1] "el resultado es:  25"
+## 6.- Estructuras repetitivas.
+
+Estrcuturas repetitivas:
+
+Se llaman problemas repetitivos o ciclicos a aquellos en cuya solucion es necesario utilizar un mismo conjunto de acciones que se puedan ejecutar una cantidad especifica de veces. Esta cantidad puede ser fija (previamente determinada por el programador). Los ciclos se calsifican en:
+
+* Ciclos con un numero determinado de iteraciones.
+* Ciclos con un numero indeterminado de iteraciones.
+
+### 6.1.- Ciclos con un número determinado de iteraciones.
+
+Ciclos con un numero determinado de iteraciones:
+
+Son aquellos en que el numero de iteraciones se conoce antes de ejecutarse el ciclo. La forma de esta estructura es la siguiente:
+
+Para variables_numerica <- valor inicial Hasta valor_final Con Paso paso Hacer
+        secuencia_de_acciones
+FinPara
+
+Ejemplo:
+
+Imprimir en pantalla los numeros del 1 al 10
+
+//Ejemplo ciclo for
+
+Proceso principal
+	
+	definir i como entero;
+	
+	para i <- 1 hasta 10 con paso 1 hacer
+		escribir i;
+	FinPara
+	
+FinProceso
+
+```{r}
+for (i in 1:10) {
+  print(i)
+}
+```
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+
