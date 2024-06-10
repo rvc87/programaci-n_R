@@ -1768,3 +1768,42 @@ while (i <= 10) {
 [1] 8
 [1] 9
 [1] 10
+
+### 6.3.- Ejercicio 1 - Suma de los N primeros números.
+
+Ejercicio 1.- ciclo para - hasta - hacer (for):
+
+Calcular la suma de los "N" primeros numeros.
+
+S = 1 + 2 + 3 + ... + N
+
+//Ejercicio 1 - Suma de los N primeros números.
+
+Proceso principal
+	
+	definir n, suma, i como entero;
+	
+	escribir "digite la cantidad de numeros a sumar: ";
+	leer n;
+	
+	suma <- 0;
+	
+	para i <- 1 hasta n con paso 1 Hacer
+		suma <- suma + i;
+	FinPara
+	
+	escribir "la suma es: ", suma;
+	
+FinProceso
+
+```{r}
+n <- as.numeric(readline("digite la cantidad de numeros a usar: "))
+suma <- 0
+for (i in 1:n) {
+  suma <- suma + i
+}
+
+paste("la suma es: ", suma)
+```
+digite la cantidad de numeros a usar: 5
+[1] "la suma es:  15"
