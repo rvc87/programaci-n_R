@@ -1718,3 +1718,53 @@ for (i in 1:10) {
 [1] 9
 [1] 10
 
+### 6.2.- Ciclos con un número indeterminado de iteraciones.
+
+Ciclo con un numero indeterminado de iteraciones:
+
+Son aquellos en que el numero de iteraciones no se conoce con exactitud, ya que esta dado en funcion de un dato dentro del programa.
+
+Ciclo mientras - hacer (while):
+
+Esta es una estructura que repetira un proceso durante "N" veces, donde "N" puede ser fijo o variable. Para esto, la instruccion se vale de una condicion que es la que debe cumplirse para que se siga ejecutando. Cuando la condicion ya no se cumpla, entinces ya no se ejecuta el proceso. La forma de esta estructura es la siguiente:
+
+Mienras expresion_logica Hacer
+      secuencia_de_acciones
+FinMientras
+
+Ejemplo:
+Imprimir en pantalla los numero del 1 al 10
+
+//Ejemplo ciclo while
+
+Proceso principal
+	
+	definir i como entero;
+	
+	i <- 1;
+	mientras i <= 10 Hacer
+		escribir i;
+		i <- i + 1;
+	FinMientras
+	
+FinProceso
+
+```{r}
+i <- 0
+
+while (i <= 10) {
+  print(i)
+  i <- i + 1
+}
+```
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
